@@ -179,7 +179,3 @@ Tests mock `fetch`; they do not call CAMB or require a real key.
 The provider and API key must remain server-side. The example browser calls local Next.js routes and never receives `CAMB_API_KEY`. Account voice catalogs are returned with private, no-store caching. Translated speech uses a local NDJSON stream so lifecycle updates reach the progress panel while CAMB continues processing.
 
 This v1 does not include transcription, voice cloning, sound effects, standalone translation without speech, analytics, persistence, or automatic retries.
-
-## License
-
-MIT
