@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "targets": {
+    "/": {
+      "targetKind": "existing-ui",
+      "projectId": "d390cc92-4f1d-4f4b-904d-560adbf7ffc5",
+      "baselineDraftId": "e2100676-0078-4c78-83c5-f9bee9b0d996",
+      "activeDraftId": "e2100676-0078-4c78-83c5-f9bee9b0d996",
+      "designSystemPath": ".superdesign/design-system.md",
+      "contextFiles": [
+        ".superdesign/design-system.md",
+        "examples/nextjs/app/page.tsx",
+        "examples/nextjs/app/globals.css",
+        "examples/nextjs/app/layout.tsx",
+        "examples/nextjs/app/components/hero.tsx",
+        "examples/nextjs/app/components/studio-intro.tsx",
+        "examples/nextjs/app/components/site-footer.tsx",
+        "examples/nextjs/app/components/voice-studio/voice-studio.tsx",
+        "examples/nextjs/app/components/voice-studio/speech-form.tsx",
+        "examples/nextjs/app/components/voice-studio/result-card.tsx",
+        "examples/nextjs/app/components/voice-studio/select-field.tsx",
+        "examples/nextjs/app/components/voice-studio/generation-progress.tsx",
+        "examples/nextjs/app/hooks/use-voice-studio.ts",
+        "examples/nextjs/app/lib/constants.ts",
+        "examples/nextjs/app/lib/generation-progress.ts",
+        "examples/nextjs/app/lib/voice-catalog.ts"
+      ],
+      "fingerprints": {
+        ".superdesign/design-system.md": "f63d103d75446b0c59359f0288491bee1c3b1c0f1bf7776dba39ca35ce2d71c0",
+        "examples/nextjs/app/page.tsx": "d0a8c6f05c01ab00a4c61bb1ae8fe00229bd38a5dc9270f92bcf3042986c8ee3",
+        "examples/nextjs/app/globals.css": "2cb026e6cbde8b070e73b18d40e6064acf4f4449d6beaa0842cd8d3464f01149",
+        "examples/nextjs/app/layout.tsx": "441958ea179ab08b6af227d68e326744ad859d5acf8b83513e9c2e43b7b33590",
+        "examples/nextjs/app/components/hero.tsx": "67e4643716eb02b7300c2f9c37dbd44896f5358a93f35e06e0ea844611f6c418",
+        "examples/nextjs/app/components/studio-intro.tsx": "01782c5140c1e62a99067153fa4400a1420a31b8a3209de1a968aac3b32cc510",
+        "examples/nextjs/app/components/site-footer.tsx": "4e7aea8d87cfbfdc902b5a2b5033950a9a08e195f9d04fa87ff520d1b7dbc0f9",
+        "examples/nextjs/app/components/voice-studio/voice-studio.tsx": "5408ca8a82743f46948ea721c169873f0515a938cc6c8f729f3ffc9120231327",
+        "examples/nextjs/app/components/voice-studio/speech-form.tsx": "1d5e31a68ff7eb5a58909b841320cb5b7fd803871df609051ac07339b7bb68f2",
+        "examples/nextjs/app/components/voice-studio/result-card.tsx": "21db7d8b2750f1feb4c5f6d0d9b90b0b42df16f6a48c7d307ba7bc9e682e1043",
+        "examples/nextjs/app/components/voice-studio/select-field.tsx": "741b52793ec362239b5f3ea54a6c7537eda7a985c66227d2d05dec3b293e781b",
+        "examples/nextjs/app/components/voice-studio/generation-progress.tsx": "d5672f9157b7daab4a22a8a467c086b220350c21120846770e547b87dbdcdaff",
+        "examples/nextjs/app/hooks/use-voice-studio.ts": "f16109a5aa2a6a960e6ade6a5e0d89b01da9bbb6cf38eb2a6749315c54d1ee92",
+        "examples/nextjs/app/lib/constants.ts": "fe1b874425c5ea91037b4bf1a99d55b3d676eae3f14949e60bc0d4ce671a0683",
+        "examples/nextjs/app/lib/generation-progress.ts": "649c892a7e5d78b280ba7f0bd18c651b9d345c35c5e137d9805b1f10c3a9f934",
+        "examples/nextjs/app/lib/voice-catalog.ts": "b745ce7b5dbd44a8f91914653aa11cc2a4b9e2066041bfa47137f9f8b2f6b2bb"
+      },
+      "drafts": {
+        "e2100676-0078-4c78-83c5-f9bee9b0d996": {
+          "title": "CAMB Voice Studio — Editorial Cinematic",
+          "visualDirection": "editorial cinematic hero with honest generation progress",
+          "currentVersion": 3
+        }
+      },
+      "updatedAt": "2026-09-03T20:36:00Z"
+    }
+  }
+}

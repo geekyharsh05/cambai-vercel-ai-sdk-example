@@ -1,0 +1,38 @@
+{
+  "name": "@camb-ai/vercel-ai-sdk-provider",
+  "version": "0.1.0",
+  "description": "CAMB.AI text-to-speech provider for the AI SDK",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "sideEffects": false,
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "vitest run tests",
+    "typecheck": "tsc -p tsconfig.json --noEmit"
+  },
+  "dependencies": {
+    "@ai-sdk/provider": "4.0.10"
+  },
+  "peerDependencies": {
+    "ai": "^7.0.0"
+  },
+  "devDependencies": {
+    "ai": "7.0.91"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
